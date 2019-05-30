@@ -1,0 +1,58 @@
+@charset: "utf-8";
+
+*{margin: 0 auto;
+padding: 0;
+list-style: none;
+}
+img{max-width: 100%;}
+a{text-decoration:none;}
+
+#all{width: 100%;}
+body {overflow-x:hidden; overflow-y:auto;} /* 좌우 스크롤 제거 */
+
+
+
+.sa{height: 110px;width: 100%; background-color:#003399;z-index: 5}
+.jbFixed {position: fixed;}
+
+.saxp{width: 2000px;height: 100px; background-color:#003399;}
+.logo{width: 100%;height: 90px; position: relative; left: 35px;top: 12px; }
+
+
+.mu{position:relative; width: 100%;}
+nav{position:absolute; width: 1500px; left: 150px; top: -85px;background-color: firebrick;z-index: 1;}
+nav ul li{width: 300px; height: 100px; line-height: 100px; float: left;}
+nav ul li a{color: white; text-align: center;text-decoration: none;display: block;background-color:#003399;}
+nav ul li a:hover{background-color:#002266;}
+nav ul ul{display: none;}
+nav ul li:hover>ul{display: block;}
+
+html { 
+  background: url(hp/2017-08-20T150706Z_1802111247_RC1D10CB69B0_RTRMADP_3_SOCCER-ENGLAND-TOT-CHE-960x450.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-size: cover;}
+
+.tosu{color: white;text-align: center;position: relative;top: 100px;}
+
+.ss{background-color: floralwhite;
+    border-radius: 50px;
+    position: relative;top: 200px;
+    width: 1500px;
+    height: 5000px;}
+.sj{position: relative;top: 100px; left: 160px;}
+.sj img{ border:2px outset rgba(44, 134, 204, 0.67); border-radius:5px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
